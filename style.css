@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh auto;
+    /* display: flex; */
+    background-color: aliceblue;
+    color: #fff;
+    justify-content: center;
+    padding: 3rem 4rem;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.container {
+    width: 50vw;
+    height: 100vh auto;
+    display: flex;
+    background-color:pink;
+    justify-content: center;
+    padding: 3rem 4rem;
+}
+.container .omel {
+    width: 70%;
+    height: 100vh auto;
+    margin: 2px 2px;
+    padding: 1rem 1rem;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+}
+
+.container .omel .img{
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.container .omel .img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container .omel .recept {
+    width: 100%;
+    text-align: justify;
+}
+.container .omel .recept h1{
+    margin-top: 10px;
+}
+.container .omel .recept p{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.container .omel .pre{
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 219, 224);
+    border-radius: 5px;
+}
+.container .omel .pre h4{
+    margin: 2px 5px;
+    color: rgb(177, 110, 110);
+}
+.container .omel .pre .ul{
+    width: 98%;
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.container .omel .pre .ul ul{
+    width: 80%;
+    padding: 5px 15px;
+}
+.container .omel .pre .ul ul li em{
+    font-weight: bolder;
+    font-family: 'poppins' , sans-serif;
+}
+.container .omel .ingr {
+    width: 100%;
+    height: 33vh;
+    margin: 5px 5px;
+}
+.container .omel .ingr h2{
+    margin: 2px 5px;
+    color: rgb(177, 110, 110);
+}
+.container .omel .ingr .ul{
+    width: 98%;
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.container .omel .ingr .ul ul{
+    width: 80%;
+    padding: 5px 15px; 
+    margin: 3px 2px;
+}
+.container .omel .inst{
+    width: 100%;
+    height: auto;
+    margin: 5px 5px;
+}
+.container .omel .inst h2{
+    margin: 2px 5px;
+    color: rgb(177, 110, 110); 
+}
+.container .omel .inst .ul{
+    width: 80%;
+    padding: 5px 15px; 
+    margin: 3px 2px;
+}
+.container .omel .inst .ul ol li em{
+    font-weight: bolder;
+    font-family: 'poppins' , sans-serif;
+}
+.container .omel .nutr{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    margin: 5px 5px;
+}
+.container .omel .nutr h2{
+    margin: 2px 5px;
+    color: rgb(177, 110, 110);
+}
+.container .omel .nutr p{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.container .omel .nutr table{
+    width: 100%;
+    text-align: center;
+    /* border-collapse: collapse; */
+    padding: 2px;
+}
+.container .omel .nutr thead {
+    border-bottom: 2px solid rgb(160 160 160);
+    text-align: center;
+    background-color: #2c5e77;
+    color:black;
+  }
+
+  .container .omel .nutr tbody{
+    background-color: #e4f0f5
+  }
