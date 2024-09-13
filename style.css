@@ -5,7 +5,7 @@
     font-family: 'poppins' , sans-serif;
 }
 body{
-    width: 100vw;
+    width: 100vw fit-content;
     height: 100vh auto;
     /* display: flex; */
     background-color: rgb(233, 239, 245);
@@ -24,7 +24,7 @@ body{
     justify-content: center;
     padding: 3rem 4rem;
     position: absolute;
-    margin-top: -63.4rem;
+    margin-top: -87rem;
 }
 .container .omel {
     width: 70%;
@@ -157,6 +157,17 @@ body{
     justify-content: right;
     margin: 2px 5px;
   }
+  /* footer .attribution{
+    display:100vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    background-color: red;
+    z-index: 10;
+    margin-bottom: 4rem;
+    position: absolute;
+  } */
  .contact {
     width: 60vw;
     height: 100vh auto;
